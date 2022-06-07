@@ -1,6 +1,6 @@
 // Select panolens div
 const pan = document.querySelector(".pan");
-const img = "../img360/4.png";
+const img = "../img360/1.png";
 const panorama = new PANOLENS.ImagePanorama(img);
 const viewer = new PANOLENS.Viewer({
     container: pan,
